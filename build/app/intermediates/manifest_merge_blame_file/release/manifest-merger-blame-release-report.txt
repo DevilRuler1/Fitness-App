@@ -1,0 +1,114 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.flare_ui"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\Work\My Fiverr\Fitness App\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\Work\My Fiverr\Fitness App\android\app\src\main\AndroidManifest.xml
+10    <!-- Include required permissions for Google Maps API to run. -->
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Moaz\.gradle\caches\transforms-2\files-2.1\b6f40824f159f6ef54587d73ab962690\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+11-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Moaz\.gradle\caches\transforms-2\files-2.1\b6f40824f159f6ef54587d73ab962690\play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Moaz\.gradle\caches\transforms-2\files-2.1\b6f40824f159f6ef54587d73ab962690\play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+12-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Moaz\.gradle\caches\transforms-2\files-2.1\b6f40824f159f6ef54587d73ab962690\play-services-maps-17.0.0\AndroidManifest.xml:24:22-64
+13
+14    <uses-feature
+14-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Moaz\.gradle\caches\transforms-2\files-2.1\b6f40824f159f6ef54587d73ab962690\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+15        android:glEsVersion="0x00020000"
+15-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Moaz\.gradle\caches\transforms-2\files-2.1\b6f40824f159f6ef54587d73ab962690\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+16        android:required="true" />
+16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Moaz\.gradle\caches\transforms-2\files-2.1\b6f40824f159f6ef54587d73ab962690\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+17    <!--
+18 io.flutter.app.FlutterApplication is an android.app.Application that
+19         calls FlutterMain.startInitialization(this); in its onCreate method.
+20         In most cases you can leave this as-is, but you if you want to provide
+21         additional functionality it is fine to subclass or reimplement
+22         FlutterApplication and put your custom class here.
+23    -->
+24    <application
+24-->D:\Work\My Fiverr\Fitness App\android\app\src\main\AndroidManifest.xml:9:5-35:19
+25        android:name="io.flutter.app.FlutterApplication"
+25-->D:\Work\My Fiverr\Fitness App\android\app\src\main\AndroidManifest.xml:10:9-57
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.1.0] C:\Users\Moaz\.gradle\caches\transforms-2\files-2.1\a83bef444c9240faa8e56c19819ce9ad\core-1.1.0\AndroidManifest.xml:24:18-86
+27        android:icon="@mipmap/ic_launcher"
+27-->D:\Work\My Fiverr\Fitness App\android\app\src\main\AndroidManifest.xml:12:9-43
+28        android:label="DRD Training" >
+28-->D:\Work\My Fiverr\Fitness App\android\app\src\main\AndroidManifest.xml:11:9-37
+29        <activity
+29-->D:\Work\My Fiverr\Fitness App\android\app\src\main\AndroidManifest.xml:13:9-31:20
+30            android:name="com.example.flare_ui.MainActivity"
+30-->D:\Work\My Fiverr\Fitness App\android\app\src\main\AndroidManifest.xml:14:13-41
+31            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+31-->D:\Work\My Fiverr\Fitness App\android\app\src\main\AndroidManifest.xml:17:13-144
+32            android:hardwareAccelerated="true"
+32-->D:\Work\My Fiverr\Fitness App\android\app\src\main\AndroidManifest.xml:18:13-47
+33            android:launchMode="singleTop"
+33-->D:\Work\My Fiverr\Fitness App\android\app\src\main\AndroidManifest.xml:15:13-43
+34            android:theme="@style/LaunchTheme"
+34-->D:\Work\My Fiverr\Fitness App\android\app\src\main\AndroidManifest.xml:16:13-47
+35            android:windowSoftInputMode="adjustResize" >
+35-->D:\Work\My Fiverr\Fitness App\android\app\src\main\AndroidManifest.xml:19:13-55
+36
+37            <!--
+38                 This keeps the window background of the activity showing
+39                 until Flutter renders its first frame. It can be removed if
+40                 there is no splash screen (such as the default splash screen
+41                 defined in @style/LaunchTheme).
+42            -->
+43            <meta-data
+43-->D:\Work\My Fiverr\Fitness App\android\app\src\main\AndroidManifest.xml:24:13-26:40
+44                android:name="io.flutter.app.android.SplashScreenUntilFirstFrame"
+44-->D:\Work\My Fiverr\Fitness App\android\app\src\main\AndroidManifest.xml:25:17-82
+45                android:value="true" />
+45-->D:\Work\My Fiverr\Fitness App\android\app\src\main\AndroidManifest.xml:26:17-37
+46
+47            <intent-filter>
+47-->D:\Work\My Fiverr\Fitness App\android\app\src\main\AndroidManifest.xml:27:13-30:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->D:\Work\My Fiverr\Fitness App\android\app\src\main\AndroidManifest.xml:28:17-68
+48-->D:\Work\My Fiverr\Fitness App\android\app\src\main\AndroidManifest.xml:28:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->D:\Work\My Fiverr\Fitness App\android\app\src\main\AndroidManifest.xml:29:17-76
+50-->D:\Work\My Fiverr\Fitness App\android\app\src\main\AndroidManifest.xml:29:27-74
+51            </intent-filter>
+52        </activity>
+53
+54        <meta-data
+54-->D:\Work\My Fiverr\Fitness App\android\app\src\main\AndroidManifest.xml:33:9-34:73
+55            android:name="com.google.android.geo.API_KEY"
+55-->D:\Work\My Fiverr\Fitness App\android\app\src\main\AndroidManifest.xml:33:20-65
+56            android:value="AIzaSyDY4JSAkI772OzcR4BIc3ckMONnJ-L8NaY" />
+56-->D:\Work\My Fiverr\Fitness App\android\app\src\main\AndroidManifest.xml:34:16-71
+57        <!-- Needs to be explicitly declared on P+ -->
+58        <uses-library
+58-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Moaz\.gradle\caches\transforms-2\files-2.1\b6f40824f159f6ef54587d73ab962690\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+59            android:name="org.apache.http.legacy"
+59-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Moaz\.gradle\caches\transforms-2\files-2.1\b6f40824f159f6ef54587d73ab962690\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+60            android:required="false" />
+60-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Moaz\.gradle\caches\transforms-2\files-2.1\b6f40824f159f6ef54587d73ab962690\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+61
+62        <activity
+62-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Moaz\.gradle\caches\transforms-2\files-2.1\bd7ffce8bc7e102b617ae65808d5ed1c\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+63            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+63-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Moaz\.gradle\caches\transforms-2\files-2.1\bd7ffce8bc7e102b617ae65808d5ed1c\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+64            android:exported="false"
+64-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Moaz\.gradle\caches\transforms-2\files-2.1\bd7ffce8bc7e102b617ae65808d5ed1c\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+65            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+65-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Moaz\.gradle\caches\transforms-2\files-2.1\bd7ffce8bc7e102b617ae65808d5ed1c\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+66
+67        <meta-data
+67-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Moaz\.gradle\caches\transforms-2\files-2.1\cba22fca0c311cb9d66a33e6ffa91c23\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+68            android:name="com.google.android.gms.version"
+68-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Moaz\.gradle\caches\transforms-2\files-2.1\cba22fca0c311cb9d66a33e6ffa91c23\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+69            android:value="@integer/google_play_services_version" />
+69-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Moaz\.gradle\caches\transforms-2\files-2.1\cba22fca0c311cb9d66a33e6ffa91c23\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+70    </application>
+71
+72</manifest>

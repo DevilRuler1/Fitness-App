@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DRD_Training.iml" filepath="$PROJECT_DIR$/.idea/modules/DRD_Training.iml" group="DRD_Training" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="DRD Training/app" />
+      <module fileurl="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.dartlang.org/google_maps_flutter-0.5.21+3/android/google_maps_flutter.iml" filepath="$USER_HOME$/development/flutter/.pub-cache/hosted/pub.dartlang.org/google_maps_flutter-0.5.21+3/android/google_maps_flutter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1227125264/io.flutter.plugins.googlemaps-google_maps_flutter.iml" filepath="$PROJECT_DIR$/.idea/modules/-1227125264/io.flutter.plugins.googlemaps-google_maps_flutter.iml" group="DRD Training/google_maps_flutter" />
+    </modules>
+  </component>
+</project>
